@@ -2,8 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(npx --yes create-next-app@latest . --typescript --tailwind --eslint --app --src-dir=false --import-alias=\"@/*\" --use-npm --no-turbopack)",
-      "Read(//d/Projects/RaYo Soft/**)",
-      "Bash(mv website/RaYo_Soft_Website_Description.md .)",
+      "Read(//d/Projects/TocoSoft/**)",
+      "Bash(mv website/TocoSoft_Website_Description.md .)",
       "Bash(npx --yes create-next-app@latest website --typescript --tailwind --eslint --app --src-dir=false --import-alias=\"@/*\" --use-npm --no-turbopack)",
       "Bash(cd:*)",
       "Bash(npm install:*)",

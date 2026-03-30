@@ -7,7 +7,7 @@ import CTASection from "@/components/home/CTASection";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn about RaYo Soft - our story, mission, vision, and the team behind our innovative digital solutions.",
+    "Learn about Toco Soft - our story, mission, vision, and the team behind our innovative digital solutions.",
 };
 
 export default function AboutPage() {
@@ -22,7 +22,7 @@ export default function AboutPage() {
             We Build Digital Experiences That Strike Fast
           </h1>
           <p className="max-w-3xl mx-auto text-lg text-dark-muted">
-            Founded in 2019, RaYo Soft has grown from a small team of passionate
+            Founded in 2019, Toco Soft has grown from a small team of passionate
             developers into a full-service digital agency helping businesses
             transform their ideas into powerful digital products.
           </p>

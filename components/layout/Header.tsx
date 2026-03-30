@@ -32,7 +32,7 @@ export default function Header() {
             <Link href="/" className="flex items-center gap-2 group">
               <LightningIcon animated className="w-8 h-8" />
               <span className="text-xl font-display font-bold text-dark-text group-hover:text-lightning-400 transition-colors">
-                RaYo Soft
+                Toco Soft
               </span>
             </Link>
 

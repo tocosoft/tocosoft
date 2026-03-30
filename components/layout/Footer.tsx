@@ -22,7 +22,7 @@ export default function Footer() {
             <Link href="/" className="flex items-center gap-2 mb-4">
               <LightningIcon animated className="w-8 h-8" />
               <span className="text-xl font-display font-bold text-dark-text">
-                RaYo Soft
+                Toco Soft
               </span>
             </Link>
             <p className="text-dark-muted text-sm leading-relaxed">
@@ -99,7 +99,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="mt-12 pt-8 border-t border-dark-border">
           <p className="text-dark-muted text-sm text-center">
-            &copy; {new Date().getFullYear()} RaYo Soft. All rights reserved.
+            &copy; {new Date().getFullYear()} Toco Soft. All rights reserved.
           </p>
         </div>
       </div>

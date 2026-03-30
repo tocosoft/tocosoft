@@ -1,8 +1,8 @@
 export const siteConfig = {
-  name: "RaYo Soft",
+  name: "Toco Soft",
   tagline: "We Build Digital Experiences That Strike Fast.",
   description:
-    "RaYo Soft is a forward-thinking technology company specializing in the design and development of web and mobile applications.",
+    "Toco Soft is a forward-thinking technology company specializing in the design and development of web and mobile applications.",
   email: "hello@rayosoft.dev",
   phone: "+1 (555) 123-4567",
   location: "San Francisco, CA",

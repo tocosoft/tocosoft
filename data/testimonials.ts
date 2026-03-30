@@ -4,7 +4,7 @@ export const testimonials: Testimonial[] = [
   {
     id: "1",
     quote:
-      "RaYo Soft transformed our outdated platform into a modern, high-performance application. Their team delivered ahead of schedule and the results exceeded our expectations.",
+      "Toco Soft transformed our outdated platform into a modern, high-performance application. Their team delivered ahead of schedule and the results exceeded our expectations.",
     author: "David Miller",
     company: "TechVenture Inc.",
     avatar: "https://picsum.photos/seed/david/200/200",
@@ -22,7 +22,7 @@ export const testimonials: Testimonial[] = [
   {
     id: "3",
     quote:
-      "Working with RaYo Soft was a game-changer for our business. Their strategic consulting helped us avoid costly mistakes and build a scalable architecture.",
+      "Working with Toco Soft was a game-changer for our business. Their strategic consulting helped us avoid costly mistakes and build a scalable architecture.",
     author: "Robert Taylor",
     company: "LogiCorp",
     avatar: "https://picsum.photos/seed/robert/200/200",
