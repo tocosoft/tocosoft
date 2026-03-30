@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-outfit: "Outfit", sans-serif;
+    --font-inter: "Inter", sans-serif;
+    --font-jetbrains: "JetBrains Mono", monospace;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-dark-bg text-dark-text font-body antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-lightning-400 via-lightning-500 to-accent-blue-500;
+  }
+
+  .bg-grid {
+    background-image: linear-gradient(rgba(132, 204, 22, 0.03) 1px, transparent 1px),
+                      linear-gradient(90deg, rgba(132, 204, 22, 0.03) 1px, transparent 1px);
+    background-size: 50px 50px;
+  }
+
+  .bg-glow {
+    box-shadow: 0 0 60px rgba(132, 204, 22, 0.15), 0 0 100px rgba(59, 130, 246, 0.1);
+  }
+
+  .border-gradient {
+    border-image: linear-gradient(135deg, rgba(132, 204, 22, 0.5), rgba(59, 130, 246, 0.5)) 1;
+  }
+}
