@@ -891,9 +891,6 @@ video {
 .h-6 {
   height: 1.5rem;
 }
-.h-8 {
-  height: 2rem;
-}
 .h-\[400px\] {
   height: 400px;
 }
@@ -930,17 +927,14 @@ video {
 .w-6 {
   width: 1.5rem;
 }
-.w-8 {
-  width: 2rem;
-}
 .w-80 {
   width: 20rem;
 }
-.w-full {
-  width: 100%;
-}
 .w-auto {
   width: auto;
+}
+.w-full {
+  width: 100%;
 }
 .max-w-2xl {
   max-width: 42rem;
@@ -970,11 +964,11 @@ video {
 @keyframes glowPulse {
 
   0%, 100% {
-    filter: drop-shadow(0 0 8px rgba(132, 204, 22, 0.4));
+    filter: drop-shadow(0 0 8px rgba(6, 182, 212, 0.4));
   }
 
   50% {
-    filter: drop-shadow(0 0 20px rgba(132, 204, 22, 0.8));
+    filter: drop-shadow(0 0 20px rgba(6, 182, 212, 0.8));
   }
 }
 .animate-glow-pulse {
@@ -1127,10 +1121,10 @@ video {
 }
 .border-lightning-500 {
   --tw-border-opacity: 1;
-  border-color: rgb(132 204 22 / var(--tw-border-opacity, 1));
+  border-color: rgb(6 182 212 / var(--tw-border-opacity, 1));
 }
 .border-lightning-500\/30 {
-  border-color: rgb(132 204 22 / 0.3);
+  border-color: rgb(6 182 212 / 0.3);
 }
 .bg-accent-blue-500\/10 {
   background-color: rgb(59 130 246 / 0.1);
@@ -1158,13 +1152,13 @@ video {
 }
 .bg-lightning-500 {
   --tw-bg-opacity: 1;
-  background-color: rgb(132 204 22 / var(--tw-bg-opacity, 1));
+  background-color: rgb(6 182 212 / var(--tw-bg-opacity, 1));
 }
 .bg-lightning-500\/10 {
-  background-color: rgb(132 204 22 / 0.1);
+  background-color: rgb(6 182 212 / 0.1);
 }
 .bg-lightning-500\/20 {
-  background-color: rgb(132 204 22 / 0.2);
+  background-color: rgb(6 182 212 / 0.2);
 }
 .bg-transparent {
   background-color: transparent;
@@ -1195,8 +1189,8 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 .from-lightning-500 {
-  --tw-gradient-from: #84cc16 var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(132 204 22 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-from: #06b6d4 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(6 182 212 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 .via-dark-bg\/95 {
@@ -1207,7 +1201,7 @@ video {
   --tw-gradient-to: #0a0e17 var(--tw-gradient-to-position);
 }
 .to-lightning-400 {
-  --tw-gradient-to: #a3e635 var(--tw-gradient-to-position);
+  --tw-gradient-to: #22d3ee var(--tw-gradient-to-position);
 }
 .to-transparent {
   --tw-gradient-to: transparent var(--tw-gradient-to-position);
@@ -1385,14 +1379,14 @@ video {
 }
 .text-lightning-400 {
   --tw-text-opacity: 1;
-  color: rgb(163 230 53 / var(--tw-text-opacity, 1));
+  color: rgb(34 211 238 / var(--tw-text-opacity, 1));
 }
 .text-lightning-500 {
   --tw-text-opacity: 1;
-  color: rgb(132 204 22 / var(--tw-text-opacity, 1));
+  color: rgb(6 182 212 / var(--tw-text-opacity, 1));
 }
 .text-lightning-500\/20 {
-  color: rgb(132 204 22 / 0.2);
+  color: rgb(6 182 212 / 0.2);
 }
 .underline {
   text-decoration-line: underline;
@@ -1451,8 +1445,8 @@ video {
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
 .bg-grid {
-    background-image: linear-gradient(rgba(132, 204, 22, 0.03) 1px, transparent 1px),
-                      linear-gradient(90deg, rgba(132, 204, 22, 0.03) 1px, transparent 1px);
+    background-image: linear-gradient(rgba(6, 182, 212, 0.03) 1px, transparent 1px),
+                      linear-gradient(90deg, rgba(6, 182, 212, 0.03) 1px, transparent 1px);
     background-size: 50px 50px;
   }
 
@@ -1462,7 +1456,7 @@ video {
 }
 
 .hover\:border-lightning-500\/50:hover {
-  border-color: rgb(132 204 22 / 0.5);
+  border-color: rgb(6 182 212 / 0.5);
 }
 
 .hover\:bg-dark-border:hover {
@@ -1481,7 +1475,7 @@ video {
 }
 
 .hover\:bg-lightning-500\/10:hover {
-  background-color: rgb(132 204 22 / 0.1);
+  background-color: rgb(6 182 212 / 0.1);
 }
 
 .hover\:text-dark-text:hover {
@@ -1491,12 +1485,12 @@ video {
 
 .hover\:text-lightning-400:hover {
   --tw-text-opacity: 1;
-  color: rgb(163 230 53 / var(--tw-text-opacity, 1));
+  color: rgb(34 211 238 / var(--tw-text-opacity, 1));
 }
 
 .hover\:text-lightning-500:hover {
   --tw-text-opacity: 1;
-  color: rgb(132 204 22 / var(--tw-text-opacity, 1));
+  color: rgb(6 182 212 / var(--tw-text-opacity, 1));
 }
 
 .hover\:shadow-lg:hover {
@@ -1506,18 +1500,18 @@ video {
 }
 
 .hover\:shadow-lightning-500\/25:hover {
-  --tw-shadow-color: rgb(132 204 22 / 0.25);
+  --tw-shadow-color: rgb(6 182 212 / 0.25);
   --tw-shadow: var(--tw-shadow-colored);
 }
 
 .hover\:shadow-lightning-500\/5:hover {
-  --tw-shadow-color: rgb(132 204 22 / 0.05);
+  --tw-shadow-color: rgb(6 182 212 / 0.05);
   --tw-shadow: var(--tw-shadow-colored);
 }
 
 .focus\:border-lightning-500:focus {
   --tw-border-opacity: 1;
-  border-color: rgb(132 204 22 / var(--tw-border-opacity, 1));
+  border-color: rgb(6 182 212 / var(--tw-border-opacity, 1));
 }
 
 .focus\:outline-none:focus {
@@ -1533,7 +1527,7 @@ video {
 
 .focus\:ring-lightning-500:focus {
   --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(132 204 22 / var(--tw-ring-opacity, 1));
+  --tw-ring-color: rgb(6 182 212 / var(--tw-ring-opacity, 1));
 }
 
 .focus\:ring-offset-2:focus {
@@ -1574,12 +1568,12 @@ video {
 }
 
 .group:hover .group-hover\:bg-lightning-500\/20 {
-  background-color: rgb(132 204 22 / 0.2);
+  background-color: rgb(6 182 212 / 0.2);
 }
 
 .group:hover .group-hover\:text-lightning-400 {
   --tw-text-opacity: 1;
-  color: rgb(163 230 53 / var(--tw-text-opacity, 1));
+  color: rgb(34 211 238 / var(--tw-text-opacity, 1));
 }
 
 @media (min-width: 640px) {

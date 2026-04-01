@@ -22,10 +22,10 @@ const config: Config = {
           950: "#080b16",
         },
         lightning: {
-          300: "#bef264",
-          400: "#a3e635",
-          500: "#84cc16",
-          600: "#65a30d",
+          300: "#67e8f9",
+          400: "#22d3ee",
+          500: "#06b6d4",
+          600: "#0891b2",
         },
         dark: {
           bg: "#0a0e17",
@@ -73,8 +73,8 @@ const config: Config = {
           "100%": { transform: "translateX(-50%)" },
         },
         glowPulse: {
-          "0%, 100%": { filter: "drop-shadow(0 0 8px rgba(132, 204, 22, 0.4))" },
-          "50%": { filter: "drop-shadow(0 0 20px rgba(132, 204, 22, 0.8))" },
+          "0%, 100%": { filter: "drop-shadow(0 0 8px rgba(6, 182, 212, 0.4))" },
+          "50%": { filter: "drop-shadow(0 0 20px rgba(6, 182, 212, 0.8))" },
         },
         float: {
           "0%, 100%": { transform: "translateY(0)" },
