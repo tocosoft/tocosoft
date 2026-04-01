@@ -8,8 +8,8 @@ import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { navLinks } from "@/lib/constants";
 import { useScrollPosition } from "@/hooks/useScrollPosition";
-import LightningIcon from "@/components/shared/LightningIcon";
 import Button from "@/components/ui/Button";
+import Image from "next/image";
 
 export default function Header() {
   const [isMobileOpen, setIsMobileOpen] = useState(false);
@@ -29,11 +29,15 @@ export default function Header() {
         <div className="mx-auto max-w-7xl px-6 md:px-12 lg:px-24">
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
-            <Link href="/" className="flex items-center gap-2 group">
-              <LightningIcon animated className="w-8 h-8" />
-              <span className="text-xl font-display font-bold text-dark-text group-hover:text-lightning-400 transition-colors">
-                Toco Soft
-              </span>
+            <Link href="/" className="flex items-center group">
+              <Image
+                src="/logo.jpeg"
+                alt="Toco Soft"
+                width={140}
+                height={48}
+                className="h-12 w-auto"
+                priority
+              />
             </Link>
 
             {/* Desktop Navigation */}

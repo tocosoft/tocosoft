@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { siteConfig, navLinks } from "@/lib/constants";
-import LightningIcon from "@/components/shared/LightningIcon";
 import { Github, Twitter, Linkedin, Instagram } from "lucide-react";
 
 const socialIcons = [
@@ -19,11 +19,14 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <Link href="/" className="flex items-center gap-2 mb-4">
-              <LightningIcon animated className="w-8 h-8" />
-              <span className="text-xl font-display font-bold text-dark-text">
-                Toco Soft
-              </span>
+            <Link href="/" className="flex items-center mb-4">
+              <Image
+                src="/logo.jpeg"
+                alt="Toco Soft"
+                width={140}
+                height={48}
+                className="h-10 w-auto"
+              />
             </Link>
             <p className="text-dark-muted text-sm leading-relaxed">
               {siteConfig.tagline}
